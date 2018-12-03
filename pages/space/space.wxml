@@ -1,0 +1,13 @@
+<!--pages/space/space.wxml-->
+<image src='/lib/assets/images/miniapp-img.jpg'></image>
+<!-- <view>Average Rating: {{workspace.avg_rating}}</view> -->
+<!-- <view style="text-align: center; padding-bottom: 50rpx;" ><h1>Workspace Name</h1></view> -->
+<view>{{workspace.name}}</view>
+
+<view>Oasis in Desert</view>
+<view>Traditional</view>
+
+<!-- <view wx:if="{{workspace.air_purifier_onsite
+ == false}}">Air</view>
+<view wx:if="{{workspace.air_purifier_onsite
+}}">Closed</view> -->

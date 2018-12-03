@@ -1,0 +1,40 @@
+<!--pages/workspaces/workspaces.wxml-->
+<view style="text-align: center; padding-bottom: 50rpx;" ><h1>My Art Gallery</h1></view>
+
+<view class="divLine"></view>
+<!-- 分割线 -->
+
+<text style="padding: 50rpx;">Latest Art Work...</text>
+
+<!-- card flex -->
+<view style="display:flex; flex-wrap:wrap;">
+
+</view>
+<!-- card flex -->
+
+  <view class="flex-item">
+    <view bindtap="showWorkspace" data-id='{{item.id}}'class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/lib/assets/images/miniapp-img.jpg');">
+      <view class="card-category">{{item.category}}
+      </view>
+      <view class="card-description">
+        <h2>Oasis in Desert</h2>
+
+      </view>
+    </view>
+  </view>
+
+<!-- <block wx:for='{{ workspaces }}'>
+  <view class="flex-item">
+    <view bindtap="showWorkspace" data-id='{{item.id}}'class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('http://blog.ellerystars.com/wework_placeholder/chengdu.jpg');">
+      <view class="card-category">{{item.category}}
+      <view style="align:right;">Avg Rating: {{item.avg_rating}}</view>
+      </view>
+      <view class="card-description">
+        <h2>{{item.name}}</h2>
+
+      </view>
+    </view>
+  </view>
+</block> -->
+
+<button bindtap="goToHomePage" class='bottom-end'>Go to Home page</button>

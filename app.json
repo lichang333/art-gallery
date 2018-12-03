@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/space/space",
+    "pages/workspaces/workspaces",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFE",
+    "borderStyle": "#D3D3D3",
+    "color": "#888888",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "Artwork",
+        "iconPath": "/lib/assets/images/artwork-inactive.png",
+        "selectedIconPath": "/lib/assets/images/artwork-active.png"
+      },
+      {
+        "pagePath": "pages/workspaces/workspaces",
+        "text": "Recent",
+        "iconPath": "/lib/assets/images/pheonix-inactive.png",
+        "selectedIconPath": "/lib/assets/images/pheonix-active.png"
+      },
+      {
+        "pagePath": "pages/workspaces/workspaces",
+        "text": "Account",
+        "iconPath": "/lib/assets/images/account-inactive.png",
+        "selectedIconPath": "/lib/assets/images/account-active.png"
+    }]
+  }
+}
